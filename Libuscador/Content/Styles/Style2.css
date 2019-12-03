@@ -1,0 +1,477 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+
+
+.sTitle {
+    color: darkred;
+}
+
+#topDiv, #bookSearchSection h2, .addColumn, .mostrar, #footer, .navDDItms    {
+    background-color: darkred;
+}
+
+
+
+/*//////////////////////
+ /PUSH FOTER TO BOTTOM////
+ //////////////////////*/
+
+
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+}
+
+
+
+/*//////////////////////
+ /HEADER AND NAVBAR//////
+ //////////////////////*/
+
+
+
+#topDiv {
+   
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 5em;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    padding: 0px 0px 0px 3em;
+}
+
+header h1, header a, #advSearchButton {
+    color: white;
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+header a {
+    padding: 0px 1em 0px 1em;
+    text-decoration: none !important;
+}
+
+a:hover , #submitButton:hover {
+    color: gold;
+}
+
+a:focus {
+    color: orange;
+    box-shadow: 1px 1px 3px 3px black;
+}
+
+
+#linkList:last-child {
+    padding: 0px 10em 0px 0em;
+}
+
+
+.navBtn, .navBtn:active, .navBtn:hover, #advSearchButton, #advSearchButton:active, #advSearchButton:focus {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+    .navBtn:active, .navBtn:hover, #advSearchButton:hover {
+        color: gold !important;
+    }
+
+.navBtn {
+
+    border: none;
+    padding: 0px;
+    font-size: 1.5em;
+    color: ghostwhite;
+    margin: 0px 10px;
+   
+}
+
+
+
+.navDDItms {
+    background-color: #B11B1B;
+    color: white;
+    max-width: 95%;
+    margin: 6px 0px;
+    border-radius: 3px;
+}
+
+.navDDItms:hover{
+    background-color: #D84141;
+    color: gold;
+}
+
+.navDDItms:active{
+    background-color: #FE7272;
+}
+
+.navDD {
+    background-color: darkred; 
+    box-shadow: 4px 2px;
+      
+}
+
+.hidden {
+
+    visibility: hidden
+}
+
+/*//////////////////////
+//// NICE BODY/////////
+ //////////////////////*/
+
+.sTitle {
+
+    text-align: center;
+    margin-top: 0.4em;
+    font-weight: bolder;
+    
+}
+
+#bookSearchSection, .advColumn {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 2em;
+}
+
+    #basicSearch, #advArea{
+        text-align: center;
+        border: 3px solid black;
+        width: 75%;
+    }
+
+
+
+    #bookSearchSection h2 {
+        margin-bottom: 1em;
+        border-bottom: 3px solid black;
+        color: white;
+    }
+
+    .advSearch {
+        color: white;   
+        border: 2px solid;
+        width: 250px;
+        background-color: darkred;
+
+    }
+
+    .advSearch span {
+        font-weight: bold;
+        font-size: 20px;
+        margin-top: 2px
+    }
+
+    .advSearch input {
+        margin: 15px 0px 5px 0px;  
+        border: 5px solid;
+        
+    }
+
+#bookSearchForm {
+    margin-bottom: 0.5em;
+}
+
+    #bookSearchForm input {
+        font-size: 1.3em;
+        width: 50%
+    }
+
+#searchButtons , #advArea {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+}
+
+#advSearchButton {
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.btnArea {
+    height: 70px;
+    border: 5px solid;
+    border-color: black;
+    border-radius: 20px;
+}
+
+.advColumn-ctr {
+    margin: 25px 15px 0px 15px;
+    justify-content: space-evenly;
+
+}
+
+#searchButtons input {
+    width: 25%;
+}
+
+    #advancedButton:hover {
+        color: gold  !important;
+        box-shadow: 1px 1px black;
+    }
+
+
+.DDtogIndex {
+    width: 15% !important;
+    padding: 0;
+    align-items: center !important;
+    justify-items: center !important;
+    margin-left: 1px;
+}
+
+
+
+#searchButtons input, .DDtogIndex, .DDitmIndex, #advancedButton {
+    width: 15% !important;
+    background: darkred !important;
+    color: white !important;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+
+.DDindex {
+    width: 15% !important;  
+    padding-top: 0px !important;
+    border: none !important;
+}
+
+
+
+.DDitmIndex {
+    min-width: 100% !important;
+}
+
+
+/*////////////////////////////////////
+    //////////Crear///////
+    ///////////////////////////////*/
+
+
+.addPadre, addColumn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.addPadre {
+    flex-flow: row wrap;
+}
+
+.addColumn {
+    display: flex;
+    flex-flow: column, wrap;
+    width: 25%;
+    min-height: 40px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+#submitButton {
+
+    
+    border: 2px solid;
+    border-color: darkred;
+    background-color: darkred;
+    color: white;
+    height: 60px;
+    font-size: 1.3em;
+    margin-top: 10px;
+
+}
+
+
+#errorPanel {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: center;
+    text-align: center;
+}
+
+/*/////////////////////////////////
+/////////////////////////////////////
+    SPINNER
+ //////////////////////////////////
+  /////////////////////////////////*/
+
+.spinnerSize {
+    max-height: 178px;
+    max-width: 178px;
+    align-self: center;
+    
+}
+
+
+
+/*/////////////////////////////////
+/////////////////////////////////////
+    RESULTADOS SECTION
+ //////////////////////////////////
+  /////////////////////////////////*/
+
+#resultadosPanel {
+    display: inline-flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 25%;
+
+
+}
+
+.mostrar {
+    margin-top: 10px;
+    min-height: 200px;
+    transition: all 0.5s ease-in;
+    
+    
+}
+
+.resultadoBusqueda {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    flex-direction: column;
+    font-size: 1em;
+    color: white;
+    border-bottom: 1px solid;
+    border-color: mintcream;
+    
+    
+  
+}
+
+.resultadoTexto {
+    padding-left: 4px;
+    font-weight: bold;
+}
+/*//// BOOKS RECOMENDADOS DISPLAY/////
+////////////////////////////////////*/
+#bookFlex {
+    text-align: center;
+    margin-top: 4em
+}
+
+#librosDestacados {
+    display: flex;
+    flex-flow: row wrap; /* Helps que los books se acomoden con pantallas chicas*/
+    justify-content: space-evenly;
+    margin-top: 3em;
+    border: 1px 1px 1px 1px solid black;
+}
+
+#librosDestacados li {
+        list-style-type: none;
+        border: darkred solid 3px;
+        margin: 0.5em 0em 0.5em 0em;
+    }
+
+#librosDestacados li:hover {
+            box-shadow: 1px 1px 1px 1px red;
+        }
+
+.resIcon, .resIcon:link, .resIcon:visited, .resIcon:active, #advSearchButton {
+    color: white !important;
+    text-decoration: none;
+
+}
+
+/*//////////////////////
+ ///Footer///////////////
+ //////////////////////*/
+
+
+#footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+    color: white;
+    font: 1.5em;
+    height: 3em;
+}
+
+    /*#footer p {
+        
+    }*/
+
+
+/* PAGINAS DE AGREGAR////////
+/////////////////////////////*/
+
+.campoTitulo span {
+    margin: 0px 0px 5px 25px
+        
+
+}
+
+
+
+
+/* @MEDIA RULES*/
+
+@media only screen and (max-width: 650px) {
+    #linkList:last-child {
+        padding: 0px 2em 0px 0em;
+    }
+
+    header h1 {
+        padding: 0px 0px 0px 3.5em;
+        color: white;
+    }
+
+    #topDiv {
+        align-content: center;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #searchButtons input {
+        font-size: 1em;
+    }
+}
+
+
+@media only screen and (max-width: 345px) {
+
+
+    #linkList:last-child {
+        padding: 0px 0px 0px 0px;
+    }
+
+    h3 a {
+        color: White;
+        padding: 0px 0.5em 0px 0.5em;
+    }
+
+    header h1 {
+        padding: 0px 0px 0px 2.8em;
+        color: white;
+    }
+}

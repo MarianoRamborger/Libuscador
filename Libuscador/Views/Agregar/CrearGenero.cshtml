@@ -1,0 +1,62 @@
+﻿@using Libuscador.Models
+@model GENEROS  
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@{
+
+    DBLibros_MarianoRamborgerEntities db = new DBLibros_MarianoRamborgerEntities();
+
+}
+
+<body>
+<main class="content">
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <h2 class="sTitle"> Añadir un Genero!  </h2>
+
+
+        <div class="form-horizontal">
+            <hr />
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            <div class="form-group">
+                <div class="campoTitulo"> <span> Nombre del Genero <span> </div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Genero , new { htmlAttributes = new { @class = "form-control reqInput" } })
+                    @Html.ValidationMessageFor(model => model.Genero, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+            @Html.HiddenFor(model => model.Gen_Id)
+
+            <div class="form-group">
+                <div class="campoTitulo"> <span> Descripción del Genero <span></div>
+                <div class="col-md-10">
+                    @Html.EditorFor(model => model.Descripcion, new { htmlAttributes = new { @class = "form-control reqInput" } })
+                    @Html.ValidationMessageFor(model => model.Descripcion, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+
+
+            <div class="form-group">
+                <div class="d-flex p-2 justify-content-center">
+                    <input type="button" value="Añadir Genero" class="btn btn-default" id="submitButton" />
+                </div>
+            </div>
+        </div>
+
+
+
+    }
+
+      <div id="errorPanel"></div>
+   
+    </main>
+      <script src="~/Content/Scripts/ScriptCrear.js"></script>
+    </body>
+
+

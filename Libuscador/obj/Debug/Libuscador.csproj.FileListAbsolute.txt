@@ -1,0 +1,433 @@
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Libuscador.dll.config
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Libuscador.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Libuscador.pdb
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csc.exe
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csc.exe.config
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csc.rsp
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csi.exe
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csi.exe.config
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\csi.rsp
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.AppContext.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Console.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Claims.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\vbc.exe
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\vbc.exe.config
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\vbc.rsp
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Antlr3.Runtime.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Newtonsoft.Json.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Helpers.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Mvc.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Optimization.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Razor.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\WebGrease.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Helpers.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Mvc.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Optimization.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.Razor.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Newtonsoft.Json.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Antlr3.Runtime.pdb
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.Razor.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\obj\Debug\Libuscador.csprojAssemblyReference.cache
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\obj\Debug\Libuscador.csproj.CopyComplete
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\obj\Debug\Libuscador.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\obj\Debug\Libuscador.pdb
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\EntityFramework.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\EntityFramework.SqlServer.dll
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\EntityFramework.xml
+C:\Users\Mariano\source\repos\Libuscador\Libuscador\bin\EntityFramework.SqlServer.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Libuscador.dll.config
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Libuscador.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Libuscador.pdb
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csc.exe
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csc.exe.config
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csc.rsp
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csi.exe
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csi.exe.config
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\csi.rsp
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.AppContext.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Console.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.IO.Compression.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.IO.Pipes.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Claims.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.ValueTuple.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Xml.XPath.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\vbc.exe
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\vbc.exe.config
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\vbc.rsp
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\VBCSCompiler.exe
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Antlr3.Runtime.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\EntityFramework.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\EntityFramework.SqlServer.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Newtonsoft.Json.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Helpers.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Mvc.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Optimization.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Razor.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.Razor.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\WebGrease.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\EntityFramework.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\EntityFramework.SqlServer.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Helpers.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Mvc.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Optimization.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.Razor.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\System.Web.WebPages.Razor.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Newtonsoft.Json.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Antlr3.Runtime.pdb
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.Helpers.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.Mvc.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.Optimization.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.Razor.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.WebPages.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\obj\Debug\Libuscador.csprojAssemblyReference.cache
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\obj\Debug\Libuscador.csproj.CoreCompileInputs.cache
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\obj\Debug\Libuscador.csproj.CopyComplete
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\obj\Debug\Libuscador.dll
+C:\Users\EducaciónIT\source\repos\Actual True proyecto final\ProyectoFinal-master\Libuscador\obj\Debug\Libuscador.pdb
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Libuscador.dll.config
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Libuscador.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Libuscador.pdb
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csc.exe
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csc.exe.config
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csc.rsp
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csi.exe
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csi.exe.config
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\csi.rsp
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.AppContext.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Console.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Claims.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\vbc.exe
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\vbc.exe.config
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\vbc.rsp
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Antlr3.Runtime.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\EntityFramework.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\EntityFramework.SqlServer.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Newtonsoft.Json.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Helpers.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Mvc.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Optimization.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Razor.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\WebGrease.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\EntityFramework.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\EntityFramework.SqlServer.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Helpers.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Mvc.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Optimization.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.Razor.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Newtonsoft.Json.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Antlr3.Runtime.pdb
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.Optimization.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.Razor.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.WebPages.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\obj\Debug\Libuscador.csprojAssemblyReference.cache
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\obj\Debug\Libuscador.csproj.CopyComplete
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\obj\Debug\Libuscador.dll
+C:\Users\Mariano\source\repos\True PROYECTO FINAL\Libuscador\obj\Debug\Libuscador.pdb
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Libuscador.dll.config
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Libuscador.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Libuscador.pdb
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csc.exe
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csc.exe.config
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csc.rsp
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csi.exe
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csi.exe.config
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\csi.rsp
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.AppContext.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Console.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.IO.Compression.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.IO.Pipes.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Claims.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.ValueTuple.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Xml.XPath.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\vbc.exe
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\vbc.exe.config
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\vbc.rsp
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\VBCSCompiler.exe
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Antlr3.Runtime.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\EntityFramework.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\EntityFramework.SqlServer.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Newtonsoft.Json.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Helpers.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Mvc.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Optimization.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Razor.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.Razor.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\WebGrease.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\EntityFramework.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\EntityFramework.SqlServer.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Helpers.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Mvc.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Optimization.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.Razor.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\System.Web.WebPages.Razor.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Newtonsoft.Json.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Antlr3.Runtime.pdb
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.Helpers.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.Mvc.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.Optimization.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.Razor.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.WebPages.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\obj\Debug\Libuscador.csprojAssemblyReference.cache
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\obj\Debug\Libuscador.csproj.CoreCompileInputs.cache
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\obj\Debug\Libuscador.csproj.CopyComplete
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\obj\Debug\Libuscador.dll
+C:\Users\EducaciónIT\Downloads\ProyectoFinal2-master\ProyectoFinal2-master\Libuscador\obj\Debug\Libuscador.pdb
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Libuscador.dll.config
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Libuscador.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Libuscador.pdb
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csc.exe
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csc.exe.config
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csc.rsp
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csi.exe
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csi.exe.config
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\csi.rsp
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.AppContext.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Console.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.IO.Compression.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.IO.Pipes.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Claims.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.ValueTuple.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Xml.XPath.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\vbc.exe
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\vbc.exe.config
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\vbc.rsp
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\VBCSCompiler.exe
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Antlr3.Runtime.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\EntityFramework.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\EntityFramework.SqlServer.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Newtonsoft.Json.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Helpers.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Mvc.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Optimization.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Razor.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.Deployment.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.Razor.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\WebGrease.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\EntityFramework.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\EntityFramework.SqlServer.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Helpers.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Mvc.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Optimization.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.Razor.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.Deployment.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\System.Web.WebPages.Razor.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Newtonsoft.Json.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Antlr3.Runtime.pdb
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.Helpers.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.Mvc.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.Optimization.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.Razor.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.WebPages.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\obj\Debug\Libuscador.csprojAssemblyReference.cache
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\obj\Debug\Libuscador.csproj.CoreCompileInputs.cache
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\obj\Debug\Libuscador.csproj.CopyComplete
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\obj\Debug\Libuscador.dll
+C:\Users\EducaciónIT\source\repos\Version final-20191202T120506Z-001\Version final\Libuscador\Libuscador\obj\Debug\Libuscador.pdb

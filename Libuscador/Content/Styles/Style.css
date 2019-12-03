@@ -1,0 +1,382 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px
+}
+
+.sTitle {
+    color: darkred;
+}
+
+#topDiv, #bookSearchSection h2, .addColumn, .mostrar, #footer, .navDDItms, .navDD, .advSearch, #searchButtons input, .DDtogIndex, .DDitmIndex, #advancedButton, #submitButton    {
+    background-color: darkred !important ;
+}
+
+body, #topDiv, nav, #bookSearchSection, .advColumn, #searchButtons , #advArea, .addPadre, .addColumn, .addColumn, #errorPanel, 
+.resultadoBusqueda, #librosDestacados, #footer {
+    display: flex;
+}
+
+body, #resultadosPanel, .resultadoBusqueda {
+    flex-direction: column;
+}
+
+#topDiv, nav, #searchButtons , #advArea, .addPadre, #librosDestacados, #footer   {
+    flex-flow: row wrap;
+}
+
+body {
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
+
+#topDiv {
+    justify-content: space-between;
+
+}
+
+#topDiv, #bookSearchSection, .advColumn, .addColumn  {
+    align-items: center;
+}
+
+#topDiv {
+    height: 5em;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+header h1 {
+    padding: 0px 0px 0px 3em;
+}
+
+
+header h1, header a, #advSearchButton, .addColumn, #submitButton, .resultadoBusqueda
+.resIcon, .resIcon:link, .resIcon:visited, .resIcon:active, #advSearchButton, #footer, .resultadoTexto {
+    color: white !important;
+}
+
+nav, #librosDestacados li {
+    list-style-type: none;
+}
+
+header a {
+    padding: 0px 1em 0px 1em;
+}
+
+a:hover, #submitButton:hover, .navBtn:active, .navBtn:hover, #advSearchButton:hover, .navDDItms:hover, #advancedButton:hover, #dropdownMenu2:hover, dropdownitem:hover, #searchButton:hover, .DDitmIndex:hover {
+    color: gold !important;
+}
+
+
+a:focus {
+    color: orange;
+    box-shadow: 1px 1px 3px 3px black;
+}
+
+#linkList:last-child {
+    padding: 0px 10em 0px 0em;
+}
+
+.navBtn, .navBtn:active, .navBtn:hover, #advSearchButton, #advSearchButton:active, #advSearchButton:focus {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+.navBtn, .navBtn:active, .navBtn:hover, #advSearchButton, #advSearchButton:active, #advSearchButton:focus, .DDindex  {
+ 
+    border: none !important;
+ }
+
+.navBtn {
+
+    border: none;
+    padding: 0px;
+    font-size: 1.5em;
+    margin: 0px 10px; 
+}
+
+.navBtn, .navDDItms, #bookSearchSection h2, .advSearch, #searchButtons input, .DDtogIndex, .DDitmIndex, #advancedButton  {
+    color: ghostwhite;
+}
+
+.navDDItms {
+    background-color: #B11B1B;
+    max-width: 95%;
+    margin: 6px 0px;
+}
+
+.navDDItms, #searchButtons input, .DDtogIndex, .DDitmIndex, #advancedButton  {
+    border-radius: 3px;
+
+}
+
+.navDDItms:hover{
+    background-color: #D84141;
+}
+
+.navDDItms:active{
+    background-color: #FE7272;
+}
+
+.navDD {
+    box-shadow: 4px 2px;
+      
+}
+
+.hidden {
+
+    visibility: hidden
+}
+
+.sTitle, #basicSearch, #advArea, #errorPanel  {
+
+    text-align: center;
+}
+
+.sTitle {
+
+    margin-top: 0.4em;
+    font-weight: bolder;
+    
+}
+
+
+#bookSearchSection, .advColumn, .addColumn, #errorPanel   {
+    flex-flow: column wrap;
+}
+
+#bookSearchSection, .advColumn {
+   
+    margin-top: 2em;
+}
+
+#basicSearch, #advArea{
+    border: 3px solid black;
+    width: 75%;
+}
+
+#bookSearchSection h2 {
+    margin-bottom: 1em;
+    border-bottom: 3px solid black;
+}
+
+.advSearch {
+    border: 2px solid;
+    width: 250px;
+
+}
+
+.advSearch span {
+
+    font-size: 20px;
+    margin-top: 2px
+}
+
+.advSearch input {
+    margin: 15px 0px 5px 0px;  
+    border: 5px solid;
+    
+}
+
+#bookSearchForm {
+    margin-bottom: 0.5em;
+}
+
+
+#bookSearchForm input {
+    font-size: 1.3em;
+    width: 50%
+}
+
+#searchButtons , #advArea, .addColumn {
+
+    justify-content: center;
+
+}
+
+.btnArea {
+
+    border-color: black;
+ }
+
+
+
+#advSearchButton {
+    padding-top: 15px;
+
+    font-size: 1.2em;
+
+}
+
+.btnArea {
+    height: 70px;
+    border: 5px solid;
+    border-radius: 20px;
+}
+
+.advColumn-ctr {
+    margin: 25px 15px 0px 15px;
+
+}
+
+#searchButtons input {
+    width: 25%;
+}
+
+#advancedButton:hover {
+  
+    box-shadow: 1px 1px black;
+}
+
+.DDtogIndex {
+    width: 15% !important;
+    padding: 0;
+    align-items: center !important;
+    margin-left: 1px;
+}
+
+#searchButtons input, .DDtogIndex, .DDitmIndex, #advancedButton {
+    width: 15% !important;
+    height: 50px;
+    border: 2px solid black;
+    margin-top: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+}
+
+.DDindex {
+    width: 15% !important;  
+    padding-top: 0px !important;
+}
+
+.DDitmIndex {
+    min-width: 100% !important;
+}
+
+.addPadre, .addColumn {
+    justify-content: space-around;
+}
+
+.addColumn {
+ 
+    width: 25%;
+    min-height: 40px;
+
+
+}
+
+#submitButton {
+
+    
+    border: 2px solid;
+    border-color: darkred;
+    height: 60px;
+    font-size: 1.3em;
+    margin-top: 10px;
+
+}
+
+#errorPanel, #footer {
+  
+    align-content: center;  
+}
+
+.spinnerSize {
+    max-height: 178px;
+    max-width: 178px;
+    align-self: center;
+    
+}
+
+
+#resultadosPanel {
+    display: inline-flex;  
+    width: 50%;
+    margin-left: 25%;
+
+}
+
+.mostrar {
+    margin-top: 10px;
+    min-height: 200px;
+    transition: all 0.5s ease-in;
+    
+    
+}
+
+
+.resultadoTexto, .advSearch span, #advSearchButton   {
+   
+    font-weight: bold;
+}
+
+.resultadoBusqueda {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    border-bottom: 1px solid;
+    border-color: mintcream;
+}
+
+.resultadoTexto {
+    padding-left: 4px;
+
+}
+
+#bookFlex {
+    text-align: center;
+    margin-top: 4em
+}
+
+#librosDestacados {
+
+    justify-content: space-evenly;
+    margin-top: 3em;
+    border: 1px 1px 1px 1px solid black;
+}
+
+#librosDestacados li {
+ 
+    border: darkred solid 3px;
+    margin: 0.5em 0em 0.5em 0em;
+}
+
+#librosDestacados li:hover {
+    box-shadow: 1px 1px 1px 1px red;
+}
+
+.resIcon, .resIcon:link, .resIcon:visited, .resIcon:active, #advSearchButton, header a {
+    text-decoration: none !important ;
+
+}
+
+
+#footer {
+    justify-content: flex-end;
+    align-content: center;
+    font: 1.5em;
+    height: 3em;
+}
+
+.campoTitulo span {
+    margin: 0px 0px 5px 25px
+        
+
+}
+
+#searchButtons button, #searchButtons input {
+    font-size: 1em !important;
+
+}
+
+#searchButtons {
+    justify-content: space-around;
+}
+
+.confirm {
+    height: 30px;
+    background-color: black;
+    color: white;
+}

@@ -1,0 +1,99 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+
+
+<body>
+
+
+    
+
+    <main class="content">
+        <section id="bookSearchSection">
+            <div id="basicSearch">
+                <h2>BUSCA LIBROS!</h2>
+
+
+                <form id="bookSearchForm">
+
+                    <input type="text" id="searchBox" placeholder="Buscar un libro por autor.">
+
+
+                    <nav id="searchButtons" class="dropdown">
+
+                        <button class="btn btn-secondary dropdown-toggle DDtogIndex" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <span>Filtrar</span>
+                        </button>
+                        <div class="dropdown-menu DDindex" aria-labelledby="dropdownMenu2">
+                            <button class="dropdown-item DDitmIndex" data-filtro="../LIBROS/BuscarPorTitulo" data-queryString="titulo" type="button">Por Titulo.</button>
+                            <button class="dropdown-item DDitmIndex" data-filtro="../AUTORES/BuscarPorAutor" data-queryString="Nombre" type="button" name="autor">Por Autor</button>
+                            <button class="dropdown-item DDitmIndex" data-filtro="../EDITORIALES/BuscarPorEditorial" data-queryString="editorial" type="button" name="editorial">Por Editorial</button>
+                            <button class="dropdown-item DDitmIndex" data-filtro="../GENEROS/BuscarPorGenero" data-queryString="genero" type="button" name="genero">Por Genero</button>
+                        </div>  
+
+
+                        <input type="button" value="Buscar" id="searchButton">
+
+               
+
+                        <button id="advancedButton"> Busqueda Anidada.  </button>
+                    </nav>
+                </form>
+            </div>
+
+            <div id="advArea" class="hidden">
+                <div class="advColumn">
+                    <div class="advSearch">
+                        <span>TITULO</span>
+                        <input class="advInput" type="text" name="name" value="" />
+                    </div>
+                    <div class="advSearch">
+                        <span>GENERO</span>
+                        <input class="advInput" type="text" name="name" value="" />
+                    </div>
+                </div>
+
+                <div class="advColumn advColumn-ctr ">
+                    <div class="advSearch btnArea">
+                        <button id="advSearchButton" class="justify-content-center"> Busqueda Avanzada </button>
+                    </div>
+                </div>
+
+
+                <div class="advColumn">
+                    <div class="advSearch">
+                        <span>AUTOR</span>
+                        <input class="advInput" type="text" name="name" value="" />
+                    </div>
+                    <div class="advSearch">
+                        <span>EDITORIAL</span>
+                        <input class="advInput" type="text" name="name" value="" />
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+
+        <section id="resultadosPanel" >   </section>
+
+        
+      
+
+        
+      
+    </main>
+
+
+
+    
+ 
+   <script src="~/Content/Scripts/ScriptIndex.js"></script>
+
+</body>

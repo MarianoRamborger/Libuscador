@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBLibros_MarianoRamborgerModelStoreContainer" CdmEntityContainer="DBLibros_MarianoRamborgerEntities">
+    <EntitySetMapping Name="AUTORES">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.AUTORES">
+        <MappingFragment StoreEntitySet="AUTORES">
+          <ScalarProperty Name="Aut_Id" ColumnName="Aut_Id" />
+          <ScalarProperty Name="Aut_Nombre" ColumnName="Aut_Nombre" />
+          <ScalarProperty Name="FechaDeNacimiento" ColumnName="FechaDeNacimiento" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="EDITORIALES">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.EDITORIALES">
+        <MappingFragment StoreEntitySet="EDITORIALES">
+          <ScalarProperty Name="Ed_Id" ColumnName="Ed_Id" />
+          <ScalarProperty Name="Nombre_editorial" ColumnName="Nombre_editorial" />
+          <ScalarProperty Name="Pagina_web" ColumnName="Pagina_web" />
+          <ScalarProperty Name="Pais" ColumnName="Pais" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="GENEROS">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.GENEROS">
+        <MappingFragment StoreEntitySet="GENEROS">
+          <ScalarProperty Name="Gen_Id" ColumnName="Gen_Id" />
+          <ScalarProperty Name="Genero" ColumnName="Genero" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LIBROS">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LIBROS">
+        <MappingFragment StoreEntitySet="LIBROS">
+          <ScalarProperty Name="Lib_Id" ColumnName="Lib_Id" />
+          <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+          <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LibrosxAutor">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxAutor">
+        <MappingFragment StoreEntitySet="LibrosxAutor">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+          <ScalarProperty Name="Autor_Id" ColumnName="Autor_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LibrosxEditorial">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxEditorial">
+        <MappingFragment StoreEntitySet="LibrosxEditorial">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+          <ScalarProperty Name="Editorial_Id" ColumnName="Editorial_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LibrosxGenero">
+      <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxGenero">
+        <MappingFragment StoreEntitySet="LibrosxGenero">
+          <ScalarProperty Name="GendeLibId" ColumnName="GendeLibId" />
+          <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+          <ScalarProperty Name="Genero_Id" ColumnName="Genero_Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

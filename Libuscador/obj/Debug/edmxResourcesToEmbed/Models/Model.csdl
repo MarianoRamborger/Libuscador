@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DBLibros_MarianoRamborgerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="AUTORES">
+    <Key>
+      <PropertyRef Name="Aut_Id" />
+    </Key>
+    <Property Name="Aut_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Aut_Nombre" Type="String" MaxLength="80" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaDeNacimiento" Type="DateTime" Nullable="false" Precision="0" />
+    <NavigationProperty Name="LibrosxAutor" Relationship="Self.FK_AutIds" FromRole="AUTORES" ToRole="LibrosxAutor" />
+  </EntityType>
+  <EntityType Name="EDITORIALES">
+    <Key>
+      <PropertyRef Name="Ed_Id" />
+    </Key>
+    <Property Name="Ed_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Nombre_editorial" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Pagina_web" Type="String" MaxLength="70" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pais" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="LibrosxEditorial" Relationship="Self.FK_EDIIds" FromRole="EDITORIALES" ToRole="LibrosxEditorial" />
+  </EntityType>
+  <EntityType Name="GENEROS">
+    <Key>
+      <PropertyRef Name="Gen_Id" />
+    </Key>
+    <Property Name="Gen_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Genero" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="LibrosxGenero" Relationship="Self.FK_GenIds" FromRole="GENEROS" ToRole="LibrosxGenero" />
+  </EntityType>
+  <EntityType Name="LIBROS">
+    <Key>
+      <PropertyRef Name="Lib_Id" />
+    </Key>
+    <Property Name="Lib_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ISBN" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Titulo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="LibrosxAutor" Relationship="Self.FK_AutLibIds" FromRole="LIBROS" ToRole="LibrosxAutor" />
+    <NavigationProperty Name="LibrosxEditorial" Relationship="Self.FK_EDLibIds" FromRole="LIBROS" ToRole="LibrosxEditorial" />
+    <NavigationProperty Name="LibrosxGenero" Relationship="Self.FK_GenLibIDs" FromRole="LIBROS" ToRole="LibrosxGenero" />
+  </EntityType>
+  <EntityType Name="LibrosxAutor">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+    <Property Name="Autor_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="AUTORES" Relationship="Self.FK_AutIds" FromRole="LibrosxAutor" ToRole="AUTORES" />
+    <NavigationProperty Name="LIBROS" Relationship="Self.FK_AutLibIds" FromRole="LibrosxAutor" ToRole="LIBROS" />
+  </EntityType>
+  <EntityType Name="LibrosxEditorial">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+    <Property Name="Editorial_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="EDITORIALES" Relationship="Self.FK_EDIIds" FromRole="LibrosxEditorial" ToRole="EDITORIALES" />
+    <NavigationProperty Name="LIBROS" Relationship="Self.FK_EDLibIds" FromRole="LibrosxEditorial" ToRole="LIBROS" />
+  </EntityType>
+  <EntityType Name="LibrosxGenero">
+    <Key>
+      <PropertyRef Name="GendeLibId" />
+    </Key>
+    <Property Name="GendeLibId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+    <Property Name="Genero_Id" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="GENEROS" Relationship="Self.FK_GenIds" FromRole="LibrosxGenero" ToRole="GENEROS" />
+    <NavigationProperty Name="LIBROS" Relationship="Self.FK_GenLibIDs" FromRole="LibrosxGenero" ToRole="LIBROS" />
+  </EntityType>
+  <Association Name="FK_AutIds">
+    <End Role="AUTORES" Type="Self.AUTORES" Multiplicity="1" />
+    <End Role="LibrosxAutor" Type="Self.LibrosxAutor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="AUTORES">
+        <PropertyRef Name="Aut_Id" />
+      </Principal>
+      <Dependent Role="LibrosxAutor">
+        <PropertyRef Name="Autor_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EDIIds">
+    <End Role="EDITORIALES" Type="Self.EDITORIALES" Multiplicity="1" />
+    <End Role="LibrosxEditorial" Type="Self.LibrosxEditorial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="EDITORIALES">
+        <PropertyRef Name="Ed_Id" />
+      </Principal>
+      <Dependent Role="LibrosxEditorial">
+        <PropertyRef Name="Editorial_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GenIds">
+    <End Role="GENEROS" Type="Self.GENEROS" Multiplicity="1" />
+    <End Role="LibrosxGenero" Type="Self.LibrosxGenero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="GENEROS">
+        <PropertyRef Name="Gen_Id" />
+      </Principal>
+      <Dependent Role="LibrosxGenero">
+        <PropertyRef Name="Genero_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AutLibIds">
+    <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1" />
+    <End Role="LibrosxAutor" Type="Self.LibrosxAutor" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LIBROS">
+        <PropertyRef Name="Lib_Id" />
+      </Principal>
+      <Dependent Role="LibrosxAutor">
+        <PropertyRef Name="Libro_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_EDLibIds">
+    <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1" />
+    <End Role="LibrosxEditorial" Type="Self.LibrosxEditorial" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LIBROS">
+        <PropertyRef Name="Lib_Id" />
+      </Principal>
+      <Dependent Role="LibrosxEditorial">
+        <PropertyRef Name="Libro_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_GenLibIDs">
+    <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1" />
+    <End Role="LibrosxGenero" Type="Self.LibrosxGenero" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="LIBROS">
+        <PropertyRef Name="Lib_Id" />
+      </Principal>
+      <Dependent Role="LibrosxGenero">
+        <PropertyRef Name="Libro_Id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DBLibros_MarianoRamborgerEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="AUTORES" EntityType="Self.AUTORES" />
+    <EntitySet Name="EDITORIALES" EntityType="Self.EDITORIALES" />
+    <EntitySet Name="GENEROS" EntityType="Self.GENEROS" />
+    <EntitySet Name="LIBROS" EntityType="Self.LIBROS" />
+    <EntitySet Name="LibrosxAutor" EntityType="Self.LibrosxAutor" />
+    <EntitySet Name="LibrosxEditorial" EntityType="Self.LibrosxEditorial" />
+    <EntitySet Name="LibrosxGenero" EntityType="Self.LibrosxGenero" />
+    <AssociationSet Name="FK_AutIds" Association="Self.FK_AutIds">
+      <End Role="AUTORES" EntitySet="AUTORES" />
+      <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EDIIds" Association="Self.FK_EDIIds">
+      <End Role="EDITORIALES" EntitySet="EDITORIALES" />
+      <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GenIds" Association="Self.FK_GenIds">
+      <End Role="GENEROS" EntitySet="GENEROS" />
+      <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AutLibIds" Association="Self.FK_AutLibIds">
+      <End Role="LIBROS" EntitySet="LIBROS" />
+      <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+    </AssociationSet>
+    <AssociationSet Name="FK_EDLibIds" Association="Self.FK_EDLibIds">
+      <End Role="LIBROS" EntitySet="LIBROS" />
+      <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+    </AssociationSet>
+    <AssociationSet Name="FK_GenLibIDs" Association="Self.FK_GenLibIDs">
+      <End Role="LIBROS" EntitySet="LIBROS" />
+      <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

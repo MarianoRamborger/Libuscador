@@ -1,0 +1,469 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="DBLibros_MarianoRamborgerModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="AUTORES">
+          <Key>
+            <PropertyRef Name="Aut_Id" />
+          </Key>
+          <Property Name="Aut_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Aut_Nombre" Type="varchar" MaxLength="80" Nullable="false" />
+          <Property Name="Pais" Type="varchar" MaxLength="40" Nullable="false" />
+        </EntityType>
+        <EntityType Name="EDITORIALES">
+          <Key>
+            <PropertyRef Name="Ed_Id" />
+          </Key>
+          <Property Name="Ed_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Nombre_editorial" Type="varchar" MaxLength="40" />
+          <Property Name="Pagina_web" Type="varchar" MaxLength="70" Nullable="false" />
+          <Property Name="Pais" Type="varchar" MaxLength="30" Nullable="false" />
+        </EntityType>
+        <EntityType Name="GENEROS">
+          <Key>
+            <PropertyRef Name="Gen_Id" />
+          </Key>
+          <Property Name="Gen_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Genero" Type="varchar" MaxLength="20" Nullable="false" />
+          <Property Name="Descripcion" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LIBROS">
+          <Key>
+            <PropertyRef Name="Lib_Id" />
+          </Key>
+          <Property Name="Lib_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ISBN" Type="varchar" MaxLength="15" Nullable="false" />
+          <Property Name="Titulo" Type="varchar" MaxLength="100" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LibrosxAutor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Libro_Id" Type="int" Nullable="false" />
+          <Property Name="Autor_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LibrosxEditorial">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Libro_Id" Type="int" Nullable="false" />
+          <Property Name="Editorial_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <EntityType Name="LibrosxGenero">
+          <Key>
+            <PropertyRef Name="GendeLibId" />
+          </Key>
+          <Property Name="GendeLibId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Libro_Id" Type="int" Nullable="false" />
+          <Property Name="Genero_Id" Type="int" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_AutIds">
+          <End Role="AUTORES" Type="Self.AUTORES" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxAutor" Type="Self.LibrosxAutor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AUTORES">
+              <PropertyRef Name="Aut_Id" />
+            </Principal>
+            <Dependent Role="LibrosxAutor">
+              <PropertyRef Name="Autor_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AutLibIds">
+          <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxAutor" Type="Self.LibrosxAutor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxAutor">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EDIIds">
+          <End Role="EDITORIALES" Type="Self.EDITORIALES" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxEditorial" Type="Self.LibrosxEditorial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EDITORIALES">
+              <PropertyRef Name="Ed_Id" />
+            </Principal>
+            <Dependent Role="LibrosxEditorial">
+              <PropertyRef Name="Editorial_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EDLibIds">
+          <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxEditorial" Type="Self.LibrosxEditorial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxEditorial">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GenIds">
+          <End Role="GENEROS" Type="Self.GENEROS" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxGenero" Type="Self.LibrosxGenero" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GENEROS">
+              <PropertyRef Name="Gen_Id" />
+            </Principal>
+            <Dependent Role="LibrosxGenero">
+              <PropertyRef Name="Genero_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GenLibIDs">
+          <End Role="LIBROS" Type="Self.LIBROS" Multiplicity="1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="LibrosxGenero" Type="Self.LibrosxGenero" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxGenero">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="DBLibros_MarianoRamborgerModelStoreContainer">
+          <EntitySet Name="AUTORES" EntityType="Self.AUTORES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="EDITORIALES" EntityType="Self.EDITORIALES" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="GENEROS" EntityType="Self.GENEROS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LIBROS" EntityType="Self.LIBROS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LibrosxAutor" EntityType="Self.LibrosxAutor" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LibrosxEditorial" EntityType="Self.LibrosxEditorial" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="LibrosxGenero" EntityType="Self.LibrosxGenero" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_AutIds" Association="Self.FK_AutIds">
+            <End Role="AUTORES" EntitySet="AUTORES" />
+            <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AutLibIds" Association="Self.FK_AutLibIds">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EDIIds" Association="Self.FK_EDIIds">
+            <End Role="EDITORIALES" EntitySet="EDITORIALES" />
+            <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EDLibIds" Association="Self.FK_EDLibIds">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GenIds" Association="Self.FK_GenIds">
+            <End Role="GENEROS" EntitySet="GENEROS" />
+            <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GenLibIDs" Association="Self.FK_GenLibIDs">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="DBLibros_MarianoRamborgerModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="DBLibros_MarianoRamborgerEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="AUTORES" EntityType="DBLibros_MarianoRamborgerModel.AUTORES" />
+          <EntitySet Name="EDITORIALES" EntityType="DBLibros_MarianoRamborgerModel.EDITORIALES" />
+          <EntitySet Name="GENEROS" EntityType="DBLibros_MarianoRamborgerModel.GENEROS" />
+          <EntitySet Name="LIBROS" EntityType="DBLibros_MarianoRamborgerModel.LIBROS" />
+          <EntitySet Name="LibrosxAutor" EntityType="DBLibros_MarianoRamborgerModel.LibrosxAutor" />
+          <EntitySet Name="LibrosxEditorial" EntityType="DBLibros_MarianoRamborgerModel.LibrosxEditorial" />
+          <EntitySet Name="LibrosxGenero" EntityType="DBLibros_MarianoRamborgerModel.LibrosxGenero" />
+          <AssociationSet Name="FK_AutIds" Association="DBLibros_MarianoRamborgerModel.FK_AutIds">
+            <End Role="AUTORES" EntitySet="AUTORES" />
+            <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EDIIds" Association="DBLibros_MarianoRamborgerModel.FK_EDIIds">
+            <End Role="EDITORIALES" EntitySet="EDITORIALES" />
+            <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GenIds" Association="DBLibros_MarianoRamborgerModel.FK_GenIds">
+            <End Role="GENEROS" EntitySet="GENEROS" />
+            <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+          </AssociationSet>
+          <AssociationSet Name="FK_AutLibIds" Association="DBLibros_MarianoRamborgerModel.FK_AutLibIds">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxAutor" EntitySet="LibrosxAutor" />
+          </AssociationSet>
+          <AssociationSet Name="FK_EDLibIds" Association="DBLibros_MarianoRamborgerModel.FK_EDLibIds">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxEditorial" EntitySet="LibrosxEditorial" />
+          </AssociationSet>
+          <AssociationSet Name="FK_GenLibIDs" Association="DBLibros_MarianoRamborgerModel.FK_GenLibIDs">
+            <End Role="LIBROS" EntitySet="LIBROS" />
+            <End Role="LibrosxGenero" EntitySet="LibrosxGenero" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="AUTORES">
+          <Key>
+            <PropertyRef Name="Aut_Id" />
+          </Key>
+          <Property Name="Aut_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Aut_Nombre" Type="String" Nullable="false" MaxLength="80" FixedLength="false" Unicode="false" />
+          <Property Name="Pais" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="LibrosxAutor" Relationship="DBLibros_MarianoRamborgerModel.FK_AutIds" FromRole="AUTORES" ToRole="LibrosxAutor" />
+        </EntityType>
+        <EntityType Name="EDITORIALES">
+          <Key>
+            <PropertyRef Name="Ed_Id" />
+          </Key>
+          <Property Name="Ed_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Nombre_editorial" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+          <Property Name="Pagina_web" Type="String" Nullable="false" MaxLength="70" FixedLength="false" Unicode="false" />
+          <Property Name="Pais" Type="String" Nullable="false" MaxLength="30" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="LibrosxEditorial" Relationship="DBLibros_MarianoRamborgerModel.FK_EDIIds" FromRole="EDITORIALES" ToRole="LibrosxEditorial" />
+        </EntityType>
+        <EntityType Name="GENEROS">
+          <Key>
+            <PropertyRef Name="Gen_Id" />
+          </Key>
+          <Property Name="Gen_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Genero" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="false" />
+          <Property Name="Descripcion" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="LibrosxGenero" Relationship="DBLibros_MarianoRamborgerModel.FK_GenIds" FromRole="GENEROS" ToRole="LibrosxGenero" />
+        </EntityType>
+        <EntityType Name="LIBROS">
+          <Key>
+            <PropertyRef Name="Lib_Id" />
+          </Key>
+          <Property Name="Lib_Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ISBN" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="Titulo" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="LibrosxAutor" Relationship="DBLibros_MarianoRamborgerModel.FK_AutLibIds" FromRole="LIBROS" ToRole="LibrosxAutor" />
+          <NavigationProperty Name="LibrosxEditorial" Relationship="DBLibros_MarianoRamborgerModel.FK_EDLibIds" FromRole="LIBROS" ToRole="LibrosxEditorial" />
+          <NavigationProperty Name="LibrosxGenero" Relationship="DBLibros_MarianoRamborgerModel.FK_GenLibIDs" FromRole="LIBROS" ToRole="LibrosxGenero" />
+        </EntityType>
+        <EntityType Name="LibrosxAutor">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+          <Property Name="Autor_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="AUTORES" Relationship="DBLibros_MarianoRamborgerModel.FK_AutIds" FromRole="LibrosxAutor" ToRole="AUTORES" />
+          <NavigationProperty Name="LIBROS" Relationship="DBLibros_MarianoRamborgerModel.FK_AutLibIds" FromRole="LibrosxAutor" ToRole="LIBROS" />
+        </EntityType>
+        <EntityType Name="LibrosxEditorial">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+          <Property Name="Editorial_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="EDITORIALES" Relationship="DBLibros_MarianoRamborgerModel.FK_EDIIds" FromRole="LibrosxEditorial" ToRole="EDITORIALES" />
+          <NavigationProperty Name="LIBROS" Relationship="DBLibros_MarianoRamborgerModel.FK_EDLibIds" FromRole="LibrosxEditorial" ToRole="LIBROS" />
+        </EntityType>
+        <EntityType Name="LibrosxGenero">
+          <Key>
+            <PropertyRef Name="GendeLibId" />
+          </Key>
+          <Property Name="GendeLibId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Libro_Id" Type="Int32" Nullable="false" />
+          <Property Name="Genero_Id" Type="Int32" Nullable="false" />
+          <NavigationProperty Name="GENEROS" Relationship="DBLibros_MarianoRamborgerModel.FK_GenIds" FromRole="LibrosxGenero" ToRole="GENEROS" />
+          <NavigationProperty Name="LIBROS" Relationship="DBLibros_MarianoRamborgerModel.FK_GenLibIDs" FromRole="LibrosxGenero" ToRole="LIBROS" />
+        </EntityType>
+        <Association Name="FK_AutIds">
+          <End Type="DBLibros_MarianoRamborgerModel.AUTORES" Role="AUTORES" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxAutor" Role="LibrosxAutor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="AUTORES">
+              <PropertyRef Name="Aut_Id" />
+            </Principal>
+            <Dependent Role="LibrosxAutor">
+              <PropertyRef Name="Autor_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EDIIds">
+          <End Type="DBLibros_MarianoRamborgerModel.EDITORIALES" Role="EDITORIALES" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxEditorial" Role="LibrosxEditorial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="EDITORIALES">
+              <PropertyRef Name="Ed_Id" />
+            </Principal>
+            <Dependent Role="LibrosxEditorial">
+              <PropertyRef Name="Editorial_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GenIds">
+          <End Type="DBLibros_MarianoRamborgerModel.GENEROS" Role="GENEROS" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxGenero" Role="LibrosxGenero" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="GENEROS">
+              <PropertyRef Name="Gen_Id" />
+            </Principal>
+            <Dependent Role="LibrosxGenero">
+              <PropertyRef Name="Genero_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_AutLibIds">
+          <End Type="DBLibros_MarianoRamborgerModel.LIBROS" Role="LIBROS" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxAutor" Role="LibrosxAutor" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxAutor">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_EDLibIds">
+          <End Type="DBLibros_MarianoRamborgerModel.LIBROS" Role="LIBROS" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxEditorial" Role="LibrosxEditorial" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxEditorial">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_GenLibIDs">
+          <End Type="DBLibros_MarianoRamborgerModel.LIBROS" Role="LIBROS" Multiplicity="1" />
+          <End Type="DBLibros_MarianoRamborgerModel.LibrosxGenero" Role="LibrosxGenero" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="LIBROS">
+              <PropertyRef Name="Lib_Id" />
+            </Principal>
+            <Dependent Role="LibrosxGenero">
+              <PropertyRef Name="Libro_Id" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="DBLibros_MarianoRamborgerModelStoreContainer" CdmEntityContainer="DBLibros_MarianoRamborgerEntities">
+          <EntitySetMapping Name="AUTORES">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.AUTORES">
+              <MappingFragment StoreEntitySet="AUTORES">
+                <ScalarProperty Name="Pais" ColumnName="Pais" />
+                <ScalarProperty Name="Aut_Nombre" ColumnName="Aut_Nombre" />
+                <ScalarProperty Name="Aut_Id" ColumnName="Aut_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="EDITORIALES">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.EDITORIALES">
+              <MappingFragment StoreEntitySet="EDITORIALES">
+                <ScalarProperty Name="Pais" ColumnName="Pais" />
+                <ScalarProperty Name="Pagina_web" ColumnName="Pagina_web" />
+                <ScalarProperty Name="Nombre_editorial" ColumnName="Nombre_editorial" />
+                <ScalarProperty Name="Ed_Id" ColumnName="Ed_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="GENEROS">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.GENEROS">
+              <MappingFragment StoreEntitySet="GENEROS">
+                <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+                <ScalarProperty Name="Genero" ColumnName="Genero" />
+                <ScalarProperty Name="Gen_Id" ColumnName="Gen_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LIBROS">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LIBROS">
+              <MappingFragment StoreEntitySet="LIBROS">
+                <ScalarProperty Name="Titulo" ColumnName="Titulo" />
+                <ScalarProperty Name="ISBN" ColumnName="ISBN" />
+                <ScalarProperty Name="Lib_Id" ColumnName="Lib_Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LibrosxAutor">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxAutor">
+              <MappingFragment StoreEntitySet="LibrosxAutor">
+                <ScalarProperty Name="Autor_Id" ColumnName="Autor_Id" />
+                <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LibrosxEditorial">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxEditorial">
+              <MappingFragment StoreEntitySet="LibrosxEditorial">
+                <ScalarProperty Name="Editorial_Id" ColumnName="Editorial_Id" />
+                <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="LibrosxGenero">
+            <EntityTypeMapping TypeName="DBLibros_MarianoRamborgerModel.LibrosxGenero">
+              <MappingFragment StoreEntitySet="LibrosxGenero">
+                <ScalarProperty Name="Genero_Id" ColumnName="Genero_Id" />
+                <ScalarProperty Name="Libro_Id" ColumnName="Libro_Id" />
+                <ScalarProperty Name="GendeLibId" ColumnName="GendeLibId" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="Ninguno" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams>
+      <Diagram DiagramId="0f8899c62e124b66951f17b78127e9fd" Name="Diagram1">
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.AUTORES" Width="1.5" PointX="0.75" PointY="7" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.EDITORIALES" Width="1.5" PointX="0.75" PointY="9.875" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.GENEROS" Width="1.5" PointX="0.75" PointY="1" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.LIBROS" Width="1.5" PointX="0.75" PointY="3.875" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.LibrosxAutor" Width="1.5" PointX="3" PointY="3.875" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.LibrosxEditorial" Width="1.5" PointX="3" PointY="6.875" />
+        <EntityTypeShape EntityType="DBLibros_MarianoRamborgerModel.LibrosxGenero" Width="1.5" PointX="3" PointY="0.875" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_AutIds" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_EDIIds" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_GenIds" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_AutLibIds" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_EDLibIds" />
+        <AssociationConnector Association="DBLibros_MarianoRamborgerModel.FK_GenLibIDs" />
+      </Diagram>
+    </Diagrams>
+  </Designer>
+</edmx:Edmx>
